@@ -20,7 +20,7 @@ RUN ./configure
 RUN make
 RUN make install
 # /usr/local/bin/recbond
-# /usr/local/binr/ecpt1ctl
+# /usr/local/bin/recpt1ctl
 
 
 
