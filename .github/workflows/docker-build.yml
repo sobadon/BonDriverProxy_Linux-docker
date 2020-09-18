@@ -16,5 +16,4 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.CR_PAT }}
           registry: ghcr.io
-          tags: sobadon/bondriverproxy_linux:latest
  
