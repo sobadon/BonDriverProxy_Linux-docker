@@ -10,8 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Build image
-        run: docker build -t sobadon/BonDriverProxy_Linux:latest .
       - name: Login to DockerHub
         uses: docker/login-action@v1 
         with:
