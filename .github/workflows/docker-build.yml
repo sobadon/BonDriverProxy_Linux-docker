@@ -17,5 +17,5 @@ jobs:
           password: ${{ secrets.CR_PAT }}
           registry: ghcr.io
           repository: ${{ github.repository }}
-          tags: sobadon/bondriverproxy_linux-docker:latest
+          tag: latest
  
